@@ -1,0 +1,10 @@
+<!--pages/home/home.wxml-->
+
+<text class="title">Hello World</text>
+<button size="mini" bindtap="getUserInfo">按钮</button>
+
+<!-- <button open-type="" bindgetuserinfo="getUserInfo2">获取信息</button> -->
+<button open-type="chooseAvatar">头像</button>
+
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
